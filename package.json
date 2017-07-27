@@ -1,0 +1,17 @@
+{
+  "name": "cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "master.js",
+  "scripts": {
+    "start": "node master.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^3.5.2"
+  }
+}
