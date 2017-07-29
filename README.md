@@ -1,7 +1,7 @@
 ## 前言
 最近有看`Node`的多进程，所以用`Node`的`cluster`写了一个抓取豆瓣电影的小玩意(豆瓣表示，为什么你们每次写爬虫都喜欢拿我举例子...)。
 `Node`的`cluster`模块写的非常细，各种[Api](http://nodejs.cn/api/cluster.html#cluster_cluster)也写得非常详细，接下来我会梳理一下我大致的流程。
-代码已经上传到(GitHub)[https://github.com/nineyang/simpleSpider]。
+代码已经上传到[GitHub](https://github.com/nineyang/simpleSpider)。
 
 ## 流程
 首先我们先根据官方提供的接口写一个简单的可运行的demo:
@@ -69,7 +69,7 @@ process.on('message', (msg) => {
 
 很显然，我们的分离是有作用的，这样，我们离我们的多进程爬虫就又进了一步。
 
-接下来就是我们要抓取的过程了，抓取主要是采用了[superagent](https://cnodejs.org/topic/5378720ed6e2d16149fa16bd)这个模块来帮助我们实现，API非常的简单，而豆瓣的接口也非常方便分析，这里就不多赘述了，这里特别感谢豆瓣。
+接下来就是我们要抓取的过程了，抓取主要是采用了[superagent](https://cnodejs.org/topic/5378720ed6e2d16149fa16bd)这个模块来帮助我们实现，API非常的简单，而豆瓣的接口也非常方便分析，这里就不多赘述了，这里特别感谢[豆瓣](https://www.douban.com/)。
 
 ```javascript
 // spider.js
