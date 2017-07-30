@@ -65,7 +65,8 @@ process.on('message', (msg) => {
 });
 ```
 
-![330afc80-ffe3-45b1-9564-1c845d43aeff.png][3]
+![59425e11-9154-44d6-a5b9-591f4e76f292.png][3]
+
 
 很显然，我们的分离是有作用的，这样，我们离我们的多进程爬虫就又进了一步。
 
@@ -105,4 +106,4 @@ module.exports = (page) => {
 
   [1]: http://www.hellonine.top/usr/uploads/2017/07/4227312634.png
   [2]: http://www.hellonine.top/usr/uploads/2017/07/346284658.png
-  [3]: http://www.hellonine.top/usr/uploads/2017/07/1330668557.png
+  [3]: http://www.hellonine.top/usr/uploads/2017/07/1524304654.png
